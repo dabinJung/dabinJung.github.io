@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>USERLIST</title>
+<link href="css/main.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <a class="title" href="./index.html">답니</a>
+        <nav id="nav" style="display: none;">
+            <a class="nav-item" href="./introduce.html">자기소개</a>
+            <a class="nav-item" href="./trip.html">여행</a>
+            <a class="nav-item" href="./loadmap.html">로드맵</a>
+            <a class="nav-item" href="./userlist.html">회원목록</a>
+            <a class="nav-item" id="logout">로그아웃</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="div-center">
+            <div>
+                <button type="button" id="findUserBtn">유저 조회</button>
+            </div>
+            <div>
+                <table id="userListTable" style="width: 30%;">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

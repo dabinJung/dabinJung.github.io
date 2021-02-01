@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HomePAGE PROJECT</title>
+<link href="css/main.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <a class="title" href="./index.html">답니</a>
+        <nav id="nav" style="display: none;">
+            <a class="nav-item" href="./introduce.html">자기소개</a>
+            <a class="nav-item" href="./trip.html">여행</a>
+            <a class="nav-item" href="./loadmap.html">로드맵</a>
+            <a class="nav-item" href="./userlist.html">회원목록</a>
+            <a class="nav-item" id="logout">로그아웃</a>
+        </nav>
+    </header>
+
+    <section>
+        <img class="title-img" src="images/index_bg.jpg">
+        <div class="title-text">
+            <h1>WELCOME!</h1>
+            <h1>HOMEPAGE!</h1>
+            <div id="indexLoginDiv" style="display: none;">
+                <button type="button" onclick="location.href='./login.html'">로그인</button>
+                <button type="button" onclick="location.href='./sign.html'">회원가입</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
